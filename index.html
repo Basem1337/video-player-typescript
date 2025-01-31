@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Player</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <span>Video Name</span>
+                <video src="videos\Migration Trailer 720p.mp4"></video>
+                <div class="btns">
+                    <button><i class="fa-solid fa-play"></i></button>
+                    <button><i class="fa-solid fa-pause"></i></button>
+                    <button><i class="fa-solid fa-stop"></i></button>
+                    <input type="range" min="0" value="0" name="time">
+                    <button><i class="fa-solid fa-volume-xmark"></i></button>
+                    <input type="range" min="0" max="1" value="1" name="mute" step="0.1">
+                </div>
+            </div>
+        </div>
     <script src="lib/index.js"></script>
 </body>
 </html>
