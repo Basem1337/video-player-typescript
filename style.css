@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Alexandria;
 }
 
 .main{
@@ -19,6 +20,27 @@
     gap: 10px;
 }
 
+.vid-name{
+    /* position: relative;
+    top: 50px;
+    padding: 10px;
+    border-radius: 10px; */
+    color: rgb(158, 158, 158);
+}
+
+.btns{
+    position: relative;
+    bottom: 70px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.control{
+    background-color: rgb(28, 30, 50);
+    padding: 10px;
+    border-radius: 10px;
+}
+
 video{
     width: 720px;
     border-radius: 20px;
@@ -28,4 +50,5 @@ button{
     background-color: transparent;
     border: none;
     width: 48px;
+    color: white;
 }
