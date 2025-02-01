@@ -1,6 +1,22 @@
-declare var btn: NodeListOf<HTMLButtonElement>;
-declare var inp: NodeListOf<Element>;
-declare var vid: HTMLVideoElement;
-declare var img: HTMLImageElement | null;
-declare var color: Element | null;
-declare var span: HTMLSpanElement | null;
+declare class GoVidPlayer {
+    private vid;
+    private vidName;
+    private durTime;
+    private playBtn;
+    private backBtn;
+    private frwdBtn;
+    private muteBtn;
+    private vlmRange;
+    private prgrsRange;
+    constructor(vName: string, vidURL: string, containerId: string);
+    private createButton;
+    private createRangeInput;
+    private togglePlay;
+    private toggleMute;
+    private adjustVolume;
+    private seekVideo;
+    private step;
+    private addEventListeners;
+    private formatTime;
+    private vidStyle;
+}

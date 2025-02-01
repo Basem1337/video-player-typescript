@@ -5,6 +5,10 @@
     font-family: Alexandria;
 }
 
+body{
+    background-color: rgb(30, 30, 30);
+}
+
 .main{
     display: flex;
     justify-content: center;
@@ -15,16 +19,11 @@
 .header{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-direction: column;
     gap: 10px;
 }
 
 .vid-name{
-    /* position: relative;
-    top: 50px;
-    padding: 10px;
-    border-radius: 10px; */
     color: rgb(158, 158, 158);
 }
 
